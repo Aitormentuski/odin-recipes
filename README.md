@@ -9,3 +9,7 @@ y asi empezar a hacer el seguimiento de todo lo que voy a hacer.
 
 Gracias por dedicarte este tiempito, Aitor <3
 
+Despues de muchos intentos y preguntarle a Chat GPT, por fin he podido hacer push al repositoria para subirlo a GitHub, que principalmente era usar "add ." en la consola.
+
+Ahora ya estan ambas conectadas y funcionando bien aparentemente.
+

@@ -4,8 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            max-width: 600px;
+            margin: auto;
+            background-color: #f0f8ff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #ff6347;
+        }
+        p, li {
+            line-height: 1.6;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+        
+
+        
+        a:hover {
+            background-color: #ff4500;
+        }
+
+            a img {
+        display: block;
+        border-radius: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    a:not(:has(img)) {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        color: #ffffff;
+        background-color: #ff6347;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    a:not(:has(img)):hover {
+        background-color: #ff4500;
+    }
+h3
+        </style>
 </head>
 <body>
     <h1>Welcome to Odin Recipes</h1>
+    <h3>Here you will find the best recipes for your meals</h3>
+    <h2>Recipes</h2>
+    <a href="recipes/Lasaña Vegetal.html">
+    <img src="Img-and-links/lasaña.jpg" alt="Lasaña Vegetal" width="500" href>
+    </a>
+    <a href="recipes/Lasaña Vegetal.html">Lasaña Vegetal</a>
+    <a href="recipes/Esparragos.html">
+    <img src="Img-and-links/esparragos.jpg" alt="Esparragos" width="500">
+    </a>
+    <a href="recipes/Esparragos.html">Esparragos</a>
 </body>
 </html>
